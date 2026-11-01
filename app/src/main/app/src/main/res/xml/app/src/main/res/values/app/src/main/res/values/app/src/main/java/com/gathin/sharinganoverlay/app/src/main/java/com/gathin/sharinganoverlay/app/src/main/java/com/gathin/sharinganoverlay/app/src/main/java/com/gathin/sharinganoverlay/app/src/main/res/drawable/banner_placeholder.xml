@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp" android:height="180dp" android:viewportWidth="320" android:viewportHeight="180">
+    <path android:fillColor="#1A1A1A" android:pathData="M0,0h320v180h-320z"/>
+    <path android:fillColor="#FF0000" android:pathData="M160,90m-60,0a60,60 0,1,0 120,0a60,60 0,1,0 -120,0"/>
+    <path android:fillColor="#8B0000" android:pathData="M160,90m-40,0a40,40 0,1,0 80,0a40,40 0,1,0 -80,0"/>
+    <text android:x="160" android:y="150" android:fontSize="24" android:fillColor="#FFFFFF" android:textAnchor="middle">SHARINGAN</text>
+</vector>
