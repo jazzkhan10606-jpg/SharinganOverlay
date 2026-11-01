@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewFocused|typeViewSelected|typeViewAccessibilityFocused"
+    android:packageNames="com.google.android.tvlauncher,com.android.tv.settings,com.netflix.ninja,com.google.android.youtube.tv,org.xbmc.kodi,com.plexapp.android" 
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:canRequestFilterKeyEvents="false"
+    android:canRequestTouchExplorationMode="false"
+    android:accessibilityFlags="flagIncludeNotImportantViews|flagReportViewIds"
+    android:settingsActivity="com.gathin.sharinganoverlay.MainActivity" />
